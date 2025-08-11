@@ -41,7 +41,7 @@ const Hero = () => {
   return (
     <div className="container-hero-main pt-[60px] sm:mt-0">
       {/* Left side: intro */}
-      <div className={`head1 ${styles.paddingX}  flex flex-row items-start gap-5`}>
+      <div className={`head1 flex flex-row items-start gap-5`}>
         {/* Vertical line */}
         <div className="flex flex-col justify-center items-center mt-5 sm:mt-0">
           <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
